@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Mono:wght@500&display=swap");
+body {
+  background: hsl(206, 46%, 80%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.explain {
+  padding: 45px;
+  margin: 120px 200px 0 200px;
+  font-size: 30px;
+  line-height: 45px;
+  background: hsl(205, 53%, 69%);
+  color: hsl(205, 28%, 42%);
+  border-radius: 10px;
+  font-family: "Roboto Mono", monospace;
+ 
+}
+.tophalf {
+  display: flex;
+  margin: 120px 200px 0 200px;
+  align-items: center;
+}
+
+.bio {
+  font-size: 20px;
+  padding: 0 50px 0 50px;
+  margin-bottom: 50px;
+  line-height: 32px;
+}
+
+h2 {
+  padding: 0 50px 0 50px;
+  color: hsl(205, 28%, 42%);
+  font-family: "Roboto Mono", monospace;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 65px;
+  margin-right: 40px;
+}
+
+.bottomtext {
+  margin: 200px;
+  align-items: center;
+}
+
+.logo {
+  height: 80px;
+  width: 100%;
+  padding: 15px;
+  color: hsl(204, 39%, 19%);
+  font-family: "Pacifico";
+}
+
+/* Card */
+.cards {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 45px;
+  padding: 20px;
+  background: hsl(205, 53%, 69%);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.content > * {
+  width: 100%;
+}
+.content h2 {
+  font-size: 30px;
+  margin: 16px;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+  color: hsl(205, 28%, 42%);
+}
+.content a {
+  margin: 22px;
+  background: hsl(205, 28%, 42%);
+  color: hsl(206, 46%, 80%);
+  text-decoration: none;
+  padding: 25px;
+  border-radius: 25px;
+  transition: 0.3s ease;
+}
+.content a:hover {
+  border-radius: 4px;
+}
